@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/fretes">Sistema de Controle de Frete</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="/fretes">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Fretes <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="/fretes/novo">Cadastro</a></li>
+          <li><a href="/fretes">Consulta</a></li>
+        </ul>
+      </li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Cidades <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="/cidades/novo">Cadastro</a></li>
+          <li><a href="/cidades">Consulta</a></li>
+        </ul>
+      </li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Clientes <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="/clientes/novo">Cadastro</a></li>
+          <li><a href="/clientes">Consulta</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+</html>
