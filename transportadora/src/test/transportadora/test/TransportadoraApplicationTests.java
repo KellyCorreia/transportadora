@@ -1,4 +1,4 @@
-package com.transportadora.test;
+package transportadora.test;
 
 import java.math.BigDecimal;
 import java.util.List;
@@ -25,7 +25,7 @@ public class TransportadoraApplicationTests {
 	public void contextLoads() {
 	}
 	
-	/*@Test
+	@Test
 	public void DeveSalvarCidade(){
 		Cidade c = new Cidade();
 		CadastroCidadeService servico = new CadastroCidadeService();
@@ -42,6 +42,6 @@ public class TransportadoraApplicationTests {
 		
 		Assert.assertTrue(lista.size()>0);
 		
-	}*/
+	}
 
 }
