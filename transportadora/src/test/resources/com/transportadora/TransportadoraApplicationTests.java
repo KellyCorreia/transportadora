@@ -1,3 +1,4 @@
+package com.transportadora;
 import java.math.BigDecimal;
 import java.util.List;
 
